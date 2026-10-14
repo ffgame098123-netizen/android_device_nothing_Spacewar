@@ -65,3 +65,19 @@ ro.vendor.qti.va_aosp.support=1
 # Nt Feature
 ro.build.nothing.feature.base=0x4458438124a040126b4247b97ffL
 ro.build.nothing.feature.diff.device.Spacewar=0x8a0042a4041a032c34800L
+# Add these as system properties (in system.prop file), You may use utilities as libinit if configuring for unified devices
+ro.product.marketname
+ro.infinity.soc
+ro.infinity.camera
+
+# Example Defintions
+ro.product.marketname=samsung galaxy a20
+ro.infinity.soc=Exynos 7884
+ro.infinity.camera=13MP + 5MP + 8MP
+ro.product.marketname
+ro.infinity.soc
+ro.infinity.camera
+
+# Example Defintions
+ro.product.marketname=OnePlus 12R
+ro.infinity.soc=Snapdragon 8 Gen 2
